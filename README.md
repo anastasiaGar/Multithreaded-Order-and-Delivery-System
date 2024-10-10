@@ -1,5 +1,5 @@
 # Multithreaded Pizza Order and Delivery System
-Overview
+
 This project implements a pizza ordering and delivery system using POSIX threads. The system simulates the process of handling multiple customer orders concurrently while synchronizing the availability of resources such as ovens, chefs, packing staff, and delivery workers. Mutexes and condition variables are used to ensure proper synchronization, avoiding conflicts between threads as they access shared resources.
 
 Features
