@@ -2,7 +2,8 @@
 
 This project implements a pizza ordering and delivery system using POSIX threads. The system simulates the process of handling multiple customer orders concurrently while synchronizing the availability of resources such as ovens, chefs, packing staff, and delivery workers. Mutexes and condition variables are used to ensure proper synchronization, avoiding conflicts between threads as they access shared resources.
 
-Features
+Features :
+
 Multithreaded Simulation: Each customer is represented as a thread, and the system processes multiple orders simultaneously.
 Resource Management with Mutexes and Condition Variables: The system efficiently handles synchronization of resources (e.g., ovens, staff) using POSIX mutexes and condition variables.
 Order Status Tracking: Logs the time taken for each order from customer arrival to preparation and delivery completion.
